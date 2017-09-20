@@ -1,0 +1,108 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>Agricultura Orgânica</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Júlio Ewerton e Márcia Thaís"/>
+        <meta name="description" content="site sobre agricultura orgânica"/>
+        <meta name="keywords" content="agricultura, web"/>   
+        <link href="js/lib/materialize/css/materialize.css" rel="stylesheet" >
+       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="shortcut icon" href="https://thumbs.dreamstime.com/z/shovel-pitchfork-white-background-32491827.jpg">
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+	    <script src="js/mobile.js"></script>
+        <div class="darken-3"></div>
+    </head>
+    <body>
+        <script type="text/javascript" src="js/lib/materialize/css/materialize.css"></script>
+        <script type="text/javascript" src="js/lib/materialize/js/materialize.min.js"></script>
+        <header >
+            <div class="navbar-fixed #00695c">
+                <section class="esc">
+                    <nav id="menu" >
+                        <div class="nav-fixed ">
+			             <a href="index.html" class="brand-logo">Agricultura orgânica</a>   
+			             <a href="#" data-activates="menu-mobile" class="button-collapse"></a>
+                        <ul class="right hide-on-med-and-down">
+                                <li>
+                                    <a href="index.html" class="home">Home</a>
+                                </li>
+                                <li>
+                                    <a href="formulario.html" class="formulario">Formulário</a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </nav>
+                     <nav>
+                         <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                    <li><a href="formulario.html">Formulário</a></li>
+                </ul>
+            </nav>
+                </section>
+            </div>
+        </header>
+        <main class="container">
+             <h1 class="center blue-grey-text text-darken-3">Formulário</h1>
+             <div class="divider"> </div>
+             <section id="formulario">
+                 <form action="index.html" method="post" >
+                    <div class="input-field col s6">
+                        <label class="active" for="nome">Nome:</label>
+                        <input type="text" name="nome">
+                    </div>
+                    <div class="input-field col s6">
+                        <label class="active" for="email">Email:</label>                                            
+                        <input type="email" name="email" />
+                    </div>
+                    <div class="input-field col s6">
+                        <label class="active" for="endereco">Endereço:</label>                                            
+                        <input type="text" name="endereco" />
+                    </div>
+                    <div class="input-field col s6">
+                        <label class="active" >Selecione seu estado:</label>                                            
+                        <p>
+                            <input class="with-gap" name="estado" type="radio" id="e1" />
+                            <label for="e1">Paraíba</label>
+                        </p>
+                        <p>
+                            <input class="with-gap" name="estado" type="radio" id="e2" />
+                            <label for="e2">Pernambuco</label>
+                        </p>
+                        <p>
+                            <input class="with-gap" name="estado" type="radio" id="e3" />
+                            <label for="e3">Rio Grande do Norte</label>
+                        </p>
+                        <p>
+                            <input class="with-gap" name="estado" type="radio" id="e4" />
+                            <label for="e4">Ceará</label>
+                        </p>
+                    </div>   
+                    <div class="input-field inline">
+                        <input type="submit" name="enviar" />                        
+                    </div>
+                 
+                 </form>     
+             </section>
+        </main>
+        <footer class="page-footer grey">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Site sobre agricultura orgânica</h5>
+                <p class="grey-text text-lighten-4">Desenvolvedores: Júlio ewerton e Márcia Thaís</p>
+                 <p class="grey-text text-lighten-4">E-mail: julioewerton02@gmail.com e aicramthais@gmail.com</p>
+              </div>
+             </div>
+            </div>
+   
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Copyright Text
+            </div>
+          </div>
+        </footer>
+    </body>
+</html>

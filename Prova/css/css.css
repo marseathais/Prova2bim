@@ -1,0 +1,21 @@
+h1, h3{
+    text-align: center;
+
+}
+p {
+    text-align: justify;
+}
+.img {
+    width: 750px;
+    height: 380px;
+    padding: 10px;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
